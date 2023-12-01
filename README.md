@@ -1,5 +1,5 @@
 # VenturesLab Tech Test Instruction Guide
-## Navigating to the VenturesLab_Test Directory
+### Navigating to the VenturesLab_Test Directory
 First, let's get you set up in the VenturesLab_Test directory. I assume you've already cloned or downloaded this directory to your computer. On my machine, it’s located in C:\Projects\VenturesLab_Test. Let me walk you through how to navigate there:
 
 Open PowerShell (or Terminal on Mac): Start by opening PowerShell if you're on Windows, or Terminal if you're on a Mac.
@@ -17,7 +17,7 @@ Navigate to API Project: Type cd API to enter the API project directory.
 
 Start the API: In the API directory, type dotnet watch run. This command starts the API, and it should be accessible via a local URL, typically http://localhost:5500 (the port number may vary).
 
-## Using the API with Swagger UI
+### Using the API with Swagger UI
 The API provides 7 endpoints, including 4 for retrieving data (GET), and others for creating (POST), updating (PUT), and deleting (DELETE) data.
 
 ### GET API By sorted upcoming:
