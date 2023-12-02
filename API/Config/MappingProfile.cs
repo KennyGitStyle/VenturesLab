@@ -16,7 +16,7 @@ public static class MappingProfile
             .Map(dest => dest.Id, src => src.Id.ToString())
             .Map(dest => dest.Firstname, src => src.Firstname)
             .Map(dest => dest.Lastname, src => src.Lastname)
-            .Map(dest => dest.DateOfBirth, src => src.DataOfBirth)
+            .Map(dest => dest.DateOfBirth, src => src.DateOfBirth)
             .Map(dest => dest.Tasks, src => src.Tasks);
 
         TypeAdapterConfig<UserTask, UserTaskDto>.NewConfig()

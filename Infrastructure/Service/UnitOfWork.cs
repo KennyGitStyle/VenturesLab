@@ -20,7 +20,8 @@ public class UnitOfWork : IUnitOfWork
     /// <summary>
     /// Gets the UserTask repository instance, creating it if it doesn't already exist.
     /// </summary>
-    public IUserTask UserTask => _userTask ??= new UserTaskImplentation(_context, this);
+    public IUserTask UserTask => _userTask ??= new UserTaskImplementation(_context, this);
+
 
     /// <summary>
     /// Completes the unit of work by saving all changes made in the context to the database.

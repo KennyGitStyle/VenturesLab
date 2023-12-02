@@ -45,7 +45,7 @@ public static class UserTasksEndpoints
             .WithName(nameof(DeleteUserTask));
     }
     
-    private static async Task<Results<Ok<IEnumerable<UserTaskDto>>, NotFound<string>>> GetSortedUserTasks(IUnitOfWork unitOfWork, [AsParameters]SortParams sortParams)
+    public static async Task<Results<Ok<IEnumerable<UserTaskDto>>, NotFound<string>>> GetSortedUserTasks(IUnitOfWork unitOfWork, [AsParameters]SortParams sortParams)
     {
         try
         {
@@ -60,7 +60,7 @@ public static class UserTasksEndpoints
         }
     }
 
-    private static async Task<Results<Ok<IEnumerable<GroupedUserTaskDto>>, NotFound<string>>>
+    public static async Task<Results<Ok<IEnumerable<GroupedUserTaskDto>>, NotFound<string>>>
     GetUserTasksByGroup(IUnitOfWork unitOfWork)
     {
         try
@@ -80,7 +80,7 @@ public static class UserTasksEndpoints
         }
     }
     
-    private static async Task<Results<Ok<IEnumerable<UserTaskDto>>, NotFound<string>>>
+    public static async Task<Results<Ok<IEnumerable<UserTaskDto>>, NotFound<string>>>
     GetUserTasks(IUnitOfWork unitOfWork)
     {
         try
@@ -96,7 +96,7 @@ public static class UserTasksEndpoints
         }
     }
 
-    private static async Task<Results<Ok<UserTaskDto>, NotFound<string>>> 
+    public static async Task<Results<Ok<UserTaskDto>, NotFound<string>>> 
     GetUserTask(Guid id, IUnitOfWork unitOfWork)
     {
         try
@@ -112,7 +112,7 @@ public static class UserTasksEndpoints
         }
     }
 
-    private static async Task<Results<Created, NotFound<string>>> 
+    public static async Task<Results<Created, NotFound<string>>> 
     AddUserTask(IUnitOfWork unitOfWork, [FromBody] UserTaskDto userTaskCreate)
     {
         try
@@ -128,7 +128,7 @@ public static class UserTasksEndpoints
         }
     }
 
-    private static async Task<Results<NoContent, NotFound<string>>> 
+    public static async Task<Results<NoContent, NotFound<string>>> 
     UpdateUserTask(Guid id, IUnitOfWork unitOfWork, [FromBody] UserTaskDto userTaskUpdateDto)
     {
         if(id == Guid.Empty)
@@ -154,7 +154,7 @@ public static class UserTasksEndpoints
         }
     }
 
-    private static async Task<Results<NoContent, NotFound<string>>> 
+    public static async Task<Results<NoContent, NotFound<string>>> 
     DeleteUserTask(Guid id, IUnitOfWork unitOfWork)
     {
         try

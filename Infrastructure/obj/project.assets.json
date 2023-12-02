@@ -2476,11 +2476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Student\\application\\VenturesLab_Test\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\application\\VenturesLab_Test\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "c:\\Users\\Student\\application\\VenturesLab_Test\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Student\\application\\VenturesLab_Test\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Student\\application\\VenturesLab_Test\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Student\\application\\VenturesLab_Test\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config"

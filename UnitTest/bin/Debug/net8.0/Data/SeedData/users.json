@@ -1,0 +1,86 @@
+[
+    {
+        "Id": "b7761dd1-68d8-4584-9bd4-91bc6ea3d859",
+        "Firstname": "John",
+        "Lastname": "Doe",
+        "DateOfBirth": "1985-01-01",
+        "Tasks": [
+            {
+                "Id": "f231b16b-2bab-4fbf-985c-4efb0db7e5bb",
+                "UserId": "b7761dd1-68d8-4584-9bd4-91bc6ea3d859",
+                "CurrentDate": "2023-12-01",
+                "StartTime": "08:00:00",
+                "EndTime": "10:00:00",
+                "Subject": "Meeting with Team",
+                "Description": "Team meeting to discuss project progress",
+                "IsCurrentDate": true
+            },
+            {
+                "Id": "0014c511-a9c1-4ea3-8ddc-d5142133fda9",
+                "UserId": "b7761dd1-68d8-4584-9bd4-91bc6ea3d859",
+                "CurrentDate": "2023-12-02",
+                "StartTime": "11:00:00",
+                "EndTime": "12:00:00",
+                "Subject": "Client Call",
+                "Description": "Call with client to discuss requirements",
+                "IsCurrentDate": false
+            }
+        ]
+    },
+    {
+        "Id": "c218d16d-ae7c-445e-87f3-78573f524bee",
+        "Firstname": "Alice",
+        "Lastname": "Smith",
+        "DateOfBirth": "1990-05-05",
+        "Tasks": [
+            {
+                "Id": "49ed8fc6-7104-4019-8d8f-42e99dbece5d",
+                "UserId": "c218d16d-ae7c-445e-87f3-78573f524bee",
+                "CurrentDate": "2023-12-01",
+                "StartTime": "08:00:00",
+                "EndTime": "10:00:00",
+                "Subject": "Meeting with Manager",
+                "Description": "Manager meeting to discuss project progress",
+                "IsCurrentDate": true
+            },
+            {
+                "Id": "6dc4bc7c-d1a9-4908-96b2-28054161fb93",
+                "UserId": "c218d16d-ae7c-445e-87f3-78573f524bee",
+                "CurrentDate": "2023-12-02",
+                "StartTime": "11:00:00",
+                "EndTime": "12:00:00",
+                "Subject": "Manager Call",
+                "Description": "Call with manager to discuss requirements",
+                "IsCurrentDate": false
+            }
+        ]
+    },
+    {
+        "Id": "323c3917-2af4-466a-bd90-8fdfa11b403c",
+        "Firstname": "John",
+        "Lastname": "Allan",
+        "DateOfBirth": "1997-05-05",
+        "Tasks": [
+            {
+                "Id": "2a1498a8-ce35-42e4-b91e-a38dd392af5b",
+                "UserId": "323c3917-2af4-466a-bd90-8fdfa11b403c",
+                "CurrentDate": "2023-12-01",
+                "StartTime": "08:00:00",
+                "EndTime": "10:00:00",
+                "Subject": "Meeting with Manager",
+                "Description": "Manager meeting to discuss project progress",
+                "IsCurrentDate": true
+            },
+            {
+                "Id": "cbc0a7de-c1a4-4c6d-8ec2-b99b9986503f",
+                "UserId": "323c3917-2af4-466a-bd90-8fdfa11b403c",
+                "CurrentDate": "2023-12-02",
+                "StartTime": "11:00:00",
+                "EndTime": "12:00:00",
+                "Subject": "Client Call",
+                "Description": "Call with client to discuss requirements",
+                "IsCurrentDate": false
+            }
+        ]
+    }
+]

@@ -101,6 +101,7 @@ C:\Users\Student\application\VenturesLab_Test\API\obj\Debug\net8.0\API.AssemblyI
 C:\Users\Student\application\VenturesLab_Test\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
 C:\Users\Student\application\VenturesLab_Test\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Student\application\VenturesLab_Test\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\application\VenturesLab_Test\API\obj\Debug\net8.0\API.sourcelink.json
 C:\Users\Student\application\VenturesLab_Test\API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Student\application\VenturesLab_Test\API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Student\application\VenturesLab_Test\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props

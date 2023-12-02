@@ -18,7 +18,7 @@ public static class ServiceConfigurationExtension
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         MappingProfile.Configure();
         services.AddMapster();
-        services.AddScoped<IUserTask, UserTaskImplentation>();
+        services.AddScoped<IUserTask, UserTaskImplementation>();
         services.AddCors(options =>
         {
             options.AddPolicy("CorsPolicy", builder =>
