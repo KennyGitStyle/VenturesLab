@@ -48,4 +48,4 @@ Ensure the UI is intuitive, responsive, and communicates effectively with the ba
 Considerations: Focus on creating reusable components, managing state efficiently (possibly using Redux or Context API), and ensuring good performance.
 
 #### Conclusion
-Overall, the application effectively meets its use cases from a server and API perspective. To further advance the application, it will be essential to implement rigorous testing, as outlined in the improvement plan. Additionally, developing a user interface will be crucial to enhance end-user engagement and to fully demonstrate the application's value.
+Overall, the application effectively meets its use cases from a server and API perspective. To further advance the application, it will be essential to implement more rigorous testing (Unit and Integration Testing), as outlined in the improvement plan. Additionally, developing a user interface will be crucial to enhance end-user engagement and to fully demonstrate the application's value.
